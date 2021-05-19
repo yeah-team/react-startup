@@ -1,39 +1,19 @@
-.App {
-    text-align: center;
-}
+@import './_assets/app-assets/vendors/css/vendors.min.css';
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
+@import './_assets/app-assets/css/bootstrap.min.css';
+@import './_assets/app-assets/css/bootstrap-extended.min.css';
+@import './_assets/app-assets/css/colors.min.css';
+@import './_assets/app-assets/css/components.min.css';
+@import './_assets/app-assets/css/themes/dark-layout.min.css';
+@import './_assets/app-assets/css/themes/bordered-layout.min.css';
+@import './_assets/app-assets/css/themes/semi-dark-layout.min.css';
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
+@import './_assets/app-assets/css/core/menu/menu-types/vertical-menu.min.css';
+@import './_assets/app-assets/css/plugins/forms/form-validation.css';
+@import './_assets/app-assets/css/pages/page-auth.min.css';
+@import './_assets/app-assets/vendors/css/extensions/toastr.min.css';
+@import './_assets/app-assets/css/plugins/extensions/ext-component-toastr.css';
 
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
+@import './_assets/libs/fontaweome/css/all.css';
 
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
+@import './_assets/css/custom.css';

@@ -1,9 +1,11 @@
 body {
     font-family: 'Prompt', sans-serif !important;
+    /* background-color: red; */
 }
 
-.dark-layout body, body.dark-layout {
-    background-color: #1e1e1e;
+.dark-layout body,
+body.dark-layout {
+    background-color: #000;
 }
 
 .text-primary {
@@ -21,10 +23,12 @@ a {
 
 .btn-primary {
     background-color: orange !important;
-    border-color: darkorange!important;
+    border-color: darkorange !important;
 }
 
-.btn-primary.active, .btn-primary:active, .btn-primary:focus {
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus {
     background-color: orangered !important;
 }
 
@@ -72,7 +76,9 @@ a {
     box-shadow: 0 4px 24px 0 rgb(34 41 47 / 24%);
 }
 
-.dark-layout .custom-file-label, .dark-layout input.form-control, .dark-layout textarea.form-control {
+.dark-layout .custom-file-label,
+.dark-layout input.form-control,
+.dark-layout textarea.form-control {
     background-color: #2a2e30;
     color: #B4B7BD;
 }
@@ -109,7 +115,7 @@ html .pace .pace-progress {
 }
 
 .bg-primary {
-    background-color: orange !important ;
+    background-color: orange !important;
 }
 
 .auth-wrapper.auth-v1 .auth-inner {
@@ -132,7 +138,7 @@ html .pace .pace-progress {
     padding-top: 150px;
 }
 
-.main-menu.menu-dark .navigation > li.active > a {
+.main-menu.menu-dark .navigation>li.active>a {
     background: darkorange !important;
     box-shadow: 0 0 10px 1px #ff9f43;
     border-color: orange;
@@ -180,13 +186,15 @@ a.text-primary {
     display: block;
 }
 
-.bottombar-mobile .nav-menu .nav-item .nav-link i , .feather {
+.bottombar-mobile .nav-menu .nav-item .nav-link i,
+.feather {
     display: block;
     line-height: 1.4;
-    
+
     /* color: darkorange; */
     font-size: 26px;
 }
+
 .bottombar-mobile .nav-menu .nav-item .nav-link span {
     display: block;
     line-height: 1.4;
@@ -217,7 +225,7 @@ a.text-primary {
     display: flex;
     justify-content: space-around;
     border-top-style: solid;
-    border-color:  darkorange;
+    border-color: darkorange;
     border-image-slice: 1;
 }
 
@@ -226,20 +234,22 @@ a.text-primary {
 }
 
 .dark-layout .text-dark {
-    color: #2a2e30!important;
+    color: #2a2e30 !important;
 }
 
-.badge-glow {    
+.badge-glow {
     padding: 2.5px 2.5px;
     margin-bottom: 9px;
 }
 
-.dark-layout .input-group:focus-within .form-control, .dark-layout .input-group:focus-within .input-group-text {
+.dark-layout .input-group:focus-within .form-control,
+.dark-layout .input-group:focus-within .input-group-text {
     border-color: darkorange;
     box-shadow: none;
 }
 
-.dark-layout .custom-select:focus, .dark-layout select.form-control:focus {
+.dark-layout .custom-select:focus,
+.dark-layout select.form-control:focus {
     border-color: darkorange;
 }
 

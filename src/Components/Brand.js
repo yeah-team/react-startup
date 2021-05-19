@@ -11,6 +11,7 @@ class Brand extends Component {
         this.state = {
             brand: ''
         }
+        console.log(props);
     }
 
     componentWillMount() {
